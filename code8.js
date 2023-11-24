@@ -265,6 +265,7 @@ gdjs.copyArray(runtimeScene.getObjects("text1"), gdjs.fase_322Code.GDtext1Object
 }{for(var i = 0, len = gdjs.fase_322Code.GDRespanwObjects2.length ;i < len;++i) {
     gdjs.fase_322Code.GDRespanwObjects2[i].hide();
 }
+}{gdjs.evtTools.sound.playSound(runtimeScene, "Persephone.mp3", false, 10, 1);
 }}
 
 }

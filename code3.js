@@ -285,6 +285,7 @@ gdjs.copyArray(runtimeScene.getObjects("text1___"), gdjs.Start_32gameCode.GDtext
 }{for(var i = 0, len = gdjs.Start_32gameCode.GDcolisionStopObjects1.length ;i < len;++i) {
     gdjs.Start_32gameCode.GDcolisionStopObjects1[i].hide();
 }
+}{gdjs.evtTools.sound.playSound(runtimeScene, "Our Time Loop 1.ogg", true, 10, 1);
 }}
 
 }

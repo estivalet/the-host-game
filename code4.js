@@ -199,10 +199,10 @@ gdjs.copyArray(runtimeScene.getObjects("Melanie"), gdjs.Controls_32sceneCode.GDM
 
 
 let isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("Melanie"), gdjs.Controls_32sceneCode.GDMelanieObjects2);
-{gdjs.evtTools.camera.setCameraX(runtimeScene, (( gdjs.Controls_32sceneCode.GDMelanieObjects2.length === 0 ) ? 0 :gdjs.Controls_32sceneCode.GDMelanieObjects2[0].getCenterXInScene()), "", 0);
-}{gdjs.evtTools.camera.setCameraY(runtimeScene, (( gdjs.Controls_32sceneCode.GDMelanieObjects2.length === 0 ) ? 0 :gdjs.Controls_32sceneCode.GDMelanieObjects2[0].getCenterYInScene()), "", 0);
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "The Art of Discretion.mp3", false, 8, 1);
 }}
 
 }
@@ -213,7 +213,10 @@ gdjs.copyArray(runtimeScene.getObjects("Melanie"), gdjs.Controls_32sceneCode.GDM
 
 let isConditionTrue_0 = false;
 {
-}
+gdjs.copyArray(runtimeScene.getObjects("Melanie"), gdjs.Controls_32sceneCode.GDMelanieObjects1);
+{gdjs.evtTools.camera.setCameraX(runtimeScene, (( gdjs.Controls_32sceneCode.GDMelanieObjects1.length === 0 ) ? 0 :gdjs.Controls_32sceneCode.GDMelanieObjects1[0].getCenterXInScene()), "", 0);
+}{gdjs.evtTools.camera.setCameraY(runtimeScene, (( gdjs.Controls_32sceneCode.GDMelanieObjects1.length === 0 ) ? 0 :gdjs.Controls_32sceneCode.GDMelanieObjects1[0].getCenterYInScene()), "", 0);
+}}
 
 }
 

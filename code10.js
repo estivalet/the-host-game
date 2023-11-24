@@ -36,6 +36,19 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Outdated Time.mp3", false, 10, 1);
+}}
+
+}
+
+
 };
 
 gdjs.Congrats_32por_32jogarCode.func = function(runtimeScene) {

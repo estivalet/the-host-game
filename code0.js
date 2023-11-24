@@ -67,8 +67,11 @@ gdjs.copyArray(runtimeScene.getObjects("transition"), gdjs.StartMenuCode.GDtrans
 
 
 let isConditionTrue_0 = false;
-{
-}
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Outdated Time.mp3", true, 50, 1);
+}}
 
 }
 
